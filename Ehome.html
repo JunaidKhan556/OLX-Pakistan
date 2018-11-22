@@ -1,0 +1,97 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OLX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body onload="fetchData()">
+        <ul class="topnav" id="myTopnav">
+                <li ><a  href="products.html" class="logo"><img src="images/ads.png" alt=""></a></li>
+                      <li class="right"><input type="submit" id="loginbtn" class="btn btn1" value="Logout" onclick="logout()"></li>
+                      <li class="right"><button id="cartbtn" class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>    Items in your Cart</button></li>
+                      <li class="icon"><a href="javascript:void(0);" class="iconr" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
+          </ul>
+
+          <div class="container" id="ads">
+            <table class="table table-hover">
+                <tr>
+                        <th>Image</th>
+                  <th>Title</th>
+                  <th>Description</th>
+                  <th>Category</th>
+                  <th>Name</th>
+                  <th>Phone</th>
+                  <th>City</th>
+                  <th>Price</th>
+                  <th>Chat</th>
+                </tr>
+              </table>
+          </div>
+
+    <div class="footer">
+            <div class="info">
+            <h4>ACCOUNT</h4>
+            <a href="">YOUR ACCOUNT</a><br>
+            <a href="">PERSONAL INFORMATION</a>
+    <br>        <a href="">ADDRESSES</a>
+        <br>    <a href="">DISCOUNT</a>
+            <br><a href="">ORDER HISTORY</a>
+            </div>
+    
+            <div class="info">
+            <h4>INFORMATION</h4>
+            <a href="">CONTACT</a>
+     <br>       <a href="">REGISTRATION</a>
+         <br>   <a href="">LEGAL NOTICE</a>
+            <br><a href="">TERMS AND CONDITIONS</a>
+            <br><a href="">FAQ</a>
+            </div>
+    
+            <div class="info">
+            <h4>OUR OFFERS</h4>
+            <a href="">NEW PRODUCTS</a>
+            <br><a href="">TOP SELLERS</a>
+            <br><a href="">SPECIAL OFFERS</a>
+            <br><a href="">MANUFACTURERS</a>
+            <br><a href="">SUPPLIERS</a>
+            </div>
+    
+            <div class="info">
+            <h4>SOCIAL MEDIA</h4>
+            <!--<br><a href=""><img src="" alt=""></a>
+            <br><a href=""><img src="" alt=""></a>
+            <br><a href=""><img src="" alt=""></a>-->
+            </div>     
+        </div>    
+
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+        <script>
+        var config = {
+            apiKey: "AIzaSyBKSG31AjDfeT-QEwXb6gkGk8-QO6HAlA4",
+            authDomain: "myproject-e2693.firebaseapp.com",
+            databaseURL: "https://myproject-e2693.firebaseio.com",
+            projectId: "myproject-e2693",
+            storageBucket: "myproject-e2693.appspot.com",
+            messagingSenderId: "814400477855"
+          };
+          firebase.initializeApp(config);
+        </script>
+
+        <script src="Ehome.js"></script>    
+        <script src="assets/js/app.js"></script>
+        <script src="product.js"></script>
+        <script src="assets/js/main.js"></script>    
+
+    </body>
+<!-- Custom JS -->
+
+
+</html>

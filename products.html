@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OLX</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="sw()">
+
+    <ul class="topnav" id="myTopnav">
+        <li ><a  href="products.html" class="logo"><img src="images/ads.png" alt=""></a></li>
+        <li class="right"><input type="submit" id="loginbtn" class="btn btn1" value="Logout" onclick="logout()"></li>
+        <li class="right"><a  href="myaccount.html" class="logo"><input type="submit" id="myaccount" class="btn btn2" value="My Account"></a></li>
+        <li class="right"><a  href="submit.html" class="logo"><input type="submit" id="signupbtn" class="btn btn2" value="Submit an ad"></a></li>
+        <li class="right"><a  href="allads.html" class="logo"><input type="submit" id="allads" class="btn btn2" value="All Ads"></a></li>
+        <li class="right"><a  href="favourites.html" class="logo"><input type="submit" id="fav" class="btn btn2" value="Favourite Ads"></a></li>
+        <li><input type="search" class="search_bar" id="search" placeholder="Search your desired item....."></li>
+        <li><a href="search.html"><input type="button" class="btn btn2" id="go" value="Go"></li>
+        <li class="icon"><a href="javascript:void(0);" class="iconr" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
+    </ul>
+    <div class="slider" id="slide">
+
+        <div class="slides fade ">
+            <img src="images/electronic.png" class ="slideimg">
+        </div>
+
+        <div class="slides fade">
+        <img src="images/aaa.jpg" class ="slideimg">
+        </div>
+
+        <div class="slides fade">
+            <img src="images/b1.png" class ="slideimg">
+        </div>
+
+        <div class="slides fade">
+            <img src="images/b2.jpg"  class ="slideimg">
+        </div>
+
+        <div class="slides fade">
+            <img src="images/b3.jpg" class ="slideimg">
+        </div>
+
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="dotBar">
+        <span class="dots" onclick="currentImg(1)"></span>
+        <span class="dots" onclick="currentImg(2)"></span>
+        <span class="dots" onclick="currentImg(3)"></span>
+        <span class="dots" onclick="currentImg(4)"></span>
+        <span class="dots" onclick="currentImg(5)"></span>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <a href="sale.html"><img src="images/sale.png" alt="" width="100%"></a>
+            <div class="detail">
+                <center>
+                    <h4 id="prdct1">Property For Sale</h4>
+                </center>
+            </div>
+        </div>
+
+    <div class="card">
+        <a href="rent.html"><img src="images/rent.png" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct2">Property For Rent</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="vehicle.html"><img src="images/vehicle.png" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct3">Vehicle</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="bike.html"><img src="images/bike.jpg" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct4">Bike</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="mobilepc.html"><img src="images/mobilepc.png " alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct5">Mobile &amp PC</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="job.html"><img src="images/job.png" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct6">Job</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="service.html"><img src="images/services.png" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct7">Services</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="electronics.html"><img src="images/electronics.jpg" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct8">Electronics &amp Home Applience</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="furniture.html"><img src="images/furniture.png" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct9">Furniture</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="fashionbeauty.html"><img src="images/fashionbeauty.jpg" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct10">Fashion &amp Beauty</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="animal.html"><img src="images/animal.png" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct11">Animal</h4>
+        </center>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="kids.html"><img src="images/kids.jpg" alt="" width="100%"></a>
+        <div class="detail">
+        <center>
+            <h4 id="prdct12">Kids</h4>
+        </center>
+        </div>
+    </div>
+    </div>
+        <div class="clear"></div><br>
+    
+<div class="footer">
+        <div class="info">
+        <h4>ACCOUNT</h4>
+        <a href="">YOUR ACCOUNT</a><br>
+        <a href="">PERSONAL INFORMATION</a>
+<br>        <a href="">ADDRESSES</a>
+    <br>    <a href="">DISCOUNT</a>
+        <br><a href="">ORDER HISTORY</a>
+        </div>
+
+        <div class="info">
+        <h4>INFORMATION</h4>
+        <a href="">CONTACT</a>
+ <br>       <a href="">REGISTRATION</a>
+     <br>   <a href="">LEGAL NOTICE</a>
+        <br><a href="">TERMS AND CONDITIONS</a>
+        <br><a href="">FAQ</a>
+        </div>
+
+        <div class="info">
+        <h4>OUR OFFERS</h4>
+        <a href="">NEW PRODUCTS</a>
+        <br><a href="">TOP SELLERS</a>
+        <br><a href="">SPECIAL OFFERS</a>
+        <br><a href="">MANUFACTURERS</a>
+        <br><a href="">SUPPLIERS</a>
+        </div>
+
+        <div class="info">
+        <h4>SOCIAL MEDIA</h4>
+        </div>     
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+    var config = {
+        apiKey: "AIzaSyBKSG31AjDfeT-QEwXb6gkGk8-QO6HAlA4",
+        authDomain: "myproject-e2693.firebaseapp.com",
+        databaseURL: "https://myproject-e2693.firebaseio.com",
+        projectId: "myproject-e2693",
+        storageBucket: "myproject-e2693.appspot.com",
+        messagingSenderId: "814400477855"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+        var sear = document.getElementById('search').value;
+        localStorage.setItem('search',JSON.stringify(sear));
+    </script>    
+    <script src="assets/js/app.js"></script>
+    <script src="product.js"></script>
+    <script src="search.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    
+</body>
+<!-- Custom JS -->
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body id="signupscreen">
+
+    <div class="invisible">...</div>
+
+    <div class="container" id="signup" >
+
+        <div class="d-flex justify-content-center">
+            <h1 style="color:lightgray;"> Sign Up </h1>
+        </div>
+
+        <form action="javascrip:void(0)">
+            <div class="form-group">
+                <label for="" style="color:lightgray;">Username</label>
+                <input type="text" name="name" class="form-control" aria-describedby="nameHelp" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="" style="color:lightgray;">Email address</label>
+                <input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="" style="color:lightgray;">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+            </div>
+            <button type="submit" class="btn btn2" onclick="createuser()">Submit</button>
+        </form>
+
+    </div>
+</body>
+<!-- Firebase implementation -->
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<script src="assets/js/firebase.js"></script>
+<!--  -->
+
+<!-- Custom JS -->
+<script src="assets/js/app.js"></script>
+<!--  -->
+
+</html>

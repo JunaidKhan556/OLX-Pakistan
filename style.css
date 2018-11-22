@@ -1,0 +1,1037 @@
+
+.clear{
+    clear: both;
+}
+.menu{
+background-color: #e5e9ec;
+    width: 350px;
+    height: 350px;
+    float: left;
+}
+body{
+    background-color:white; 
+}
+#index{
+    background-image: url("images/login.jpg");
+}
+#login{
+    background-color:rgba(0,0,0,0.8);
+    border-radius: 2%;
+    margin-top: 100px;
+    width: 60%;
+}
+#signupscreen{
+    background-image: url("images/login.jpg");
+}
+#signup{
+    background-color:rgba(0,0,0,0.8);
+    border-radius: 2%;
+    margin-top: 100px;
+    width: 60%;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.sub-menu{
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+.cards{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.card{
+    transition: 0.3s;
+    width: 15%;
+    float: left;
+    margin: 29px;
+    height: 250px;
+    background-color:white;
+    
+}
+.card:hover{
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.5);
+}
+.details{
+    padding: 2px 6px;
+}
+.card img {
+    height: 200px;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: #202020;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+.info{
+    float: left;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+.footer{
+    width: 100%;
+    background-color: #202020;
+    height: 250px;
+    margin-top: 200px;
+    color: white;
+    position: relative;
+}
+.info a{
+    text-decoration: none;
+    color: lightgray;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.info a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#slide{
+    margin-left:25px;
+}
+.slideimg{
+    box-shadow:  5px 6px 10px 0px rgba(0, 0, 0, 0.6);
+}
+#search{
+    text-align: left;
+}
+.search_bar{
+    display: block;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    margin-top: 10%;
+    height: 30px;
+    font-size: 17px;
+}
+#go{
+    margin-left: 10px;
+}
+.dropdown{
+        display: block;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    margin-top: 10%;
+    height: 30px;
+    font-size: 17px;
+}
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+.btn1{
+        background-color: #1e9257;
+        border-radius: 4px;
+        /*display: none;*/
+}
+.btn1:hover{
+    background-color: rgba(28, 130, 69, 0.82);
+}
+.btn2:hover{
+    background-color: rgb(12, 127, 224);
+}
+.btn3:hover{
+    background-color: rgb(60, 60, 249);
+}
+.btn2{
+        background-color: #3892de;
+        border-radius: 4px;
+        /*display: none;*/
+}
+.btn3{
+        background-color:indigo;
+        border-radius: 30%;
+}
+.btn4{
+            background-color: #bfbfd8;
+    border-radius: 4px;
+    color: black;
+    bottom: 0px;
+
+}
+.btn4:hover{
+    background-color: rgb(157, 157, 197);
+}
+#cartbtn{
+    background-color: blue;
+    color: white;
+    font-family: cursive;
+    font-size: 14px;
+    outline: none;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 6px;
+    cursor: pointer;
+    display: none;
+}
+#cartbtn:hover{
+    background-color: #2e2ee8;
+}
+#cartbtn:active{
+    background-color: #5b5be2;
+}
+
+.addbtn{
+    font-size: 18px;
+    font-family: cursive;
+    background-color: rgba(0, 0, 255, 0.8);
+    color: white;
+    outline: none;
+    border-radius: 7%;
+    width: 40%;
+    cursor: pointer;
+    display: none;
+    border: 1px solid rgba(0, 0, 255, 0.91)
+}
+.addbtn:hover{
+        background-color: blue;
+}
+.addbtn:active{
+    background-color: rgba(0, 0, 255, 0.61);
+}
+.disablebtn{
+
+    font-size: 18px;
+    font-family: cursive;
+    background-color: rgba(0, 0, 255, 0.85);
+    color: white;
+    outline: none;
+    border-radius: 7%;
+    width: 40%;
+    cursor: not-allowed;
+    border: 1px solid rgba(0, 0, 255, 0.81);
+    opacity: 0.6;
+
+}
+.added{
+        font-size: 18px;
+    font-family: cursive;
+    background-color: rgba(0, 0, 255, 0.8);
+    color: white;
+    outline: none;
+    border-radius: 7%;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 255, 0.91);
+    display: none;
+}
+
+#message {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#message.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#logins {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#logins.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#signs {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#signs.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+#usrName{
+    text-transform: capitalize;
+}
+#cartOwner{
+    text-transform: capitalize;
+}
+#tbl tr td{
+    width: 20%;
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+}
+#tbl tr td img{
+    width: 40%;
+    cursor: pointer;
+}
+#tbl td{
+    border-bottom: 2px solid lightgray;
+}
+#tbl{
+
+        margin: 0 auto;
+
+}
+#tbl tr td i{
+    cursor: pointer;
+      font-size: 20px;
+}
+#tbl tr td i:hover{
+        font-size: 25px;
+}
+
+/*
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+      width: 100%; 
+    height: 100%;
+ 
+    overflow: auto;
+    border: 1px solid rgba(28, 130, 69, 0.82);
+     background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+
+}
+.modalContent{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    width: 80%;
+    padding: 0;
+    border: 1px solid #888;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        animation-name: animatetop;
+    animation-duration: 0.4s;
+        -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+}
+@keyframes animatetop{
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 70px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0);   
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    
+}
+.lmodal-content{
+        position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+.cart-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 85%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    overflow: scroll;
+    
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-500px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.logHd{
+    margin: 0 auto;
+}
+
+.country{
+             padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+        height: 8%;
+    width: 42%;
+    font-size: 15px;
+}
+.country:focus {
+   border:  3px solid rgb(12, 110, 146);
+}
+.inpt{
+         padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+        height: 8%;
+    width: 42%;
+    font-size: 15px;
+}
+.inpt:focus {
+   border:  3px solid rgb(12, 110, 146);
+}
+
+
+
+
+.btn1 .btn4{
+    background-color: rgba(255, 255, 255, 0); 
+
+    border: 2px solid white;
+
+    
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #035856;
+    color: white;
+}
+.slider{
+    max-width: 100%;
+    margin-top: 110px;
+}
+
+
+.dots{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    background-color: light;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin: 0 2px;
+    background-color: lightgray;
+}
+.active, .dot:hover{
+    background-color: #717171;
+
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+@keyframes fade{
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+
+.slides{
+    display: none;
+}
+body {
+    font-family: Verdana,sans-serif;
+    margin:0;
+
+}
+.dotBar{
+    text-align: center;
+}
+
+
+.slides img{
+    width:90%;
+    height:500px;
+    margin: 0 auto; 
+}
+/*@media only screen and (max-width: 300px){
+    .prev, .next, .caption{
+        font-size: 11px;
+    }
+    img{
+        height: 345px;
+    }
+}*/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color:rgba(0,0,0,0.8);
+    position: relative;
+}
+
+ul.topnav li {float: left;}
+
+ .pages {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 22px;
+    text-decoration: none;
+    height: 100%;
+    margin-top: 5%; 
+    transition: 0.3s;
+}
+.iconr{
+        display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 22px;
+    text-decoration: none;
+    height: 100%;
+    margin-top: 5%; 
+    transition: 0.3s;
+}
+.iconr:hover {background-color: #111;}
+
+
+.logo img{
+    width: 180px;
+    height: 80px;
+    margin: 0px 10px;
+    border-radius: 0%;
+}
+.pages:hover {background-color: #111;}
+
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 680px){
+     
+    ul.topnav li {float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    }
+    .search_bar, .dropdown{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+    ul.topnav li.right{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.icon{
+    display: none;
+}
+
+@media screen and (min-width:2550px){
+    ul.topnav li{
+        padding-right: 40px;
+        margin-top: 11px;
+    }
+    ul.topnav{
+        height: 100px;
+    }
+    .slides img{
+      height: 100%;
+      margin-left: 25px;
+  }
+  ul.topnav li a.pages{
+    font-size: 24px;
+    margin-top: 0px;
+}
+    .btn{
+    font-size: 30px;
+    margin-top: 11px;
+    }
+    #cartbtn{
+            font-size: 30px;
+    margin-top: 11px;
+    }
+    .modal{
+      padding-top: 140px;
+  }
+  .modal-content{
+      height: 70%;
+  }
+  .lmodal-content{
+      height: 45%;
+  }
+  .inpt{
+      width: 40%;
+      height: 60px;
+      margin-bottom: 28px;
+  }
+  .btn5, .btn4{
+      margin-top: 100px;
+  }
+  .card{
+      width: 22%;
+      height: 520px;
+  }
+  .info{
+      margin-left: 10%;
+          margin-top: 1%;
+  }
+  .info h4{
+      font-size: 20px;
+  }
+  .info a{
+      font-size: 20px;
+  }
+  #tbl tr td{
+      width: 350px;
+      font-size: 30px;
+  }
+ #tbl tr td i {
+      font-size: 35px;
+  }
+  .card h4{
+      font-size: 28px;
+  }
+  .card p{
+      font-size: 22px;
+  }
+  .card h3{
+      font-size: 25px;
+  }
+  .disablebtn{
+          margin-top: 32px;
+        font-size: 30px;
+  }
+  /*.added{
+          margin-top: 32px;
+    font-size: 30px;
+  }*/
+  ul.pagination li a {
+      font-size: 24px;
+  }
+  .footer{
+      height: 350px;
+  }
+  .info h4{
+      font-size: 26px;
+  }
+  .info a{
+      font-size: 26px;
+  }
+}
+
+
+@media screen and (max-width:680px) {
+    .topnav{
+        width: 100%;
+    }
+  .dropdown, .pages, .btn3, .search_bar{
+      display: none;
+  }
+  ul.topnav li.icon {
+    float: right;
+    display: block;
+        position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav li.right {
+    float: left;
+    display: block;
+    margin: 0 auto;
+  }
+  .slides img{
+      height: 352px;
+  }
+  .dots{
+      width: 10px;
+      height: 10px;
+  }
+  .card {
+      width: 90%;
+      margin: 10px;
+  }
+  ul.pagination li a {
+     padding: 8px 12px;
+  }
+  .footer{
+      height: 500px;
+  }
+  .modal{
+      padding-top: 25px;
+  }
+  .modal-content{
+      width: 90%;
+  }
+  .inpt{
+      width: 70%;
+      height: 4%;
+  }
+  #tbl tr td{
+      width: 30%;
+      font-size: 13px;
+  }
+}
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /*ul.topnav.responsive li.right {
+    position: relative;
+    left: 0;
+    top: 0;
+  }*/
+  ul.topnav.responsive li a.pages, ul.topnav.responsive li select.dropdown, ul.topnav.responsive li input.btn3, ul.topnav.responsive li input.search_bar{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  ul.topnav.responsive li select.dropdown, ul.topnav.responsive li input.btn3, ul.topnav.responsive li input.search_bar{
+     float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+      margin-bottom: 5px;
+
+  }
+  ul.topnav.responsive li.right{
+      float: left;
+    display: block;
+    margin-right: 18px;
+
+  }
+}
+
+/*@media screen and (min-width:760px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }*/
+  /*ul.topnav.responsive li.right {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li a.pages, ul.topnav.responsive li select.dropdown, ul.topnav.responsive li input.btn3, ul.topnav.responsive li input.search_bar{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  ul.topnav.responsive li select.dropdown, ul.topnav.responsive li input.btn3, ul.topnav.responsive li input.search_bar{
+     float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+      margin-bottom: 5px;
+
+  }
+  ul.topnav.responsive li.right{
+      float: left;
+    display: block;
+  
+
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+}
+
+
+/*@media screen and (min-width:760px) {
+  .dropdown, .pages, .btn3, .search_bar{
+      display: none;
+  }
+  ul.topnav li.icon {
+    float: right;
+    display: block;
+        position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav li.right {
+    float: left;
+    display: block;
+    margin: 0 auto;
+  }
+  .slides img{
+      height: 414px;
+  }
+  .dots{
+      width: 10px;
+      height: 10px;
+  }
+  .card {
+      width: 30%;
+      margin: 10px;
+      height: 420px;
+  }
+  .disablebtn{
+      width: 45%;
+  }
+  .added{
+      width: 45%;
+  }
+  ul.pagination li a {
+     padding: 8px 12px;
+  }
+  .footer{
+      height: 300px;
+  }
+  .modal{
+      padding-top: 40px;
+  }
+  .modal-content{
+      width: 90%;
+  }
+  .inpt{
+      width: 70%;
+      height: 4%;
+  }
+  #tbl tr td{
+      width: 30%;
+      font-size: 13px;
+  }
+}
+*/
+#formdiv {
+    text-align: center;
+  }
+  #file {
+    color: green;
+    padding: 5px;
+    border: 1px dashed #123456;
+    background-color: #f9ffe5;
+  }
+  #img {
+    width: 17px;
+    border: none;
+    height: 17px;
+    margin-left: -20px;
+    margin-bottom: 191px;
+  }
+  .upload {
+    width: 100%;
+    height: 30px;
+  }
+  .previewBox {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  .previewBox img {
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid rgb(232, 222, 189);
+  }
+  .delete {
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    width: 20px;
+    height:  20px;
+    border-radius: 50%;
+    background: #ccc;
+  }
+  .image_preview{
+    height: 10px;
+    width: 10px;
+  }
+  /* Bike css */
+
+  #ads{
+    margin-top: 150px;
+}
+.buttons{
+    display: inline-block;
+    margin-top: 150px;
+}
+#convo{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+#textmsg{
+    height: 40px;
+    border-radius: 5px; 
+    margin-top: 50px;
+}
